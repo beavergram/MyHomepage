@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10rem;
+  /* margin-bottom: 5rem; */
+  padding-bottom: 5rem;
+  /* flex: 1; */
+  min-height: calc(100vh - 18rem);
+}
