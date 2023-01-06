@@ -6,8 +6,6 @@ import Home from "./pages/Home";
 import Skill from "./pages/Skill";
 import History from "./pages/History";
 import Experience from "./pages/Experience";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Footer from "./components/Footer";
 
