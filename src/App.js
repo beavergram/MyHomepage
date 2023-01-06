@@ -3,8 +3,9 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import History from "./pages/History";
 import Skill from "./pages/Skill";
+import History from "./pages/History";
+import Experience from "./pages/Experience";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
@@ -19,10 +20,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/history" element={<History />} />
             <Route path="/skill" element={<Skill />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/history" element={<History />} />
           </Routes>
           <Footer />
         </div>

@@ -1,14 +1,14 @@
 import React from "react";
-import { SkillFrontEnd } from "./items/SkillItems";
-const History = () => {
+import { ExperienceItems } from "./items/ExperienceItems";
+const Experience = () => {
   return (
     <div className="container">
-      {/* Dev Job History */}
+      {/* Dev Experience */}
       <div className=" flex justify-center mb-12">
         <div className="w-10/12 md:flex-none md:w-8/12 md:pl-5">
-          <h1 className=" md:text-3xl text-xl font-bold mb-9 md:mb-12">Dev Skill</h1>
+          <h1 className=" md:text-3xl text-xl font-bold mb-9 md:mb-12">Dev Experience</h1>
           <div className="">
-            <SkillFrontEnd />
+            <ExperienceItems />
           </div>
         </div>
       </div>
@@ -16,4 +16,4 @@ const History = () => {
   );
 };
 
-export default History;
+export default Experience;

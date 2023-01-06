@@ -19,17 +19,14 @@ const Navbar = () => {
           <Link to={"/about"}>
             <li className="p-3 w-[100px]">About E.B</li>
           </Link>
-          <Link to={"/history"}>
-            <li className="p-3 w-[100px]">History</li>
-          </Link>
           <Link to={"/skill"}>
             <li className="p-3 w-[100px]">Skill</li>
           </Link>
-          <Link to={"/portfolio"}>
-            <li className="p-3 w-[100px]">Portfolio</li>
+          <Link to={"/history"}>
+            <li className="p-3 w-[100px]">History</li>
           </Link>
-          <Link to={"/contact"}>
-            <li className="p-3 w-[100px]">Contact</li>
+          <Link to={"/experience"}>
+            <li className="p-3 w-[100px]">Experience</li>
           </Link>
         </ul>
         <div onClick={handleClickMenu} className="block md:hidden cursor-pointer">
@@ -49,25 +46,19 @@ const Navbar = () => {
                 About E.B
               </li>
             </Link>
-            <Link to={"/history"}>
-              <li className="p-4 border-b border-gray-600" onClick={handleClickMenu}>
-                History
-              </li>
-            </Link>
             <Link to={"/skill"}>
               <li className="p-4 border-b border-gray-600" onClick={handleClickMenu}>
                 Skill
               </li>
             </Link>
-
-            <Link to={"/portfolio"}>
+            <Link to={"/history"}>
               <li className="p-4 border-b border-gray-600" onClick={handleClickMenu}>
-                Portfolio
+                History
               </li>
             </Link>
-            <Link to={"/contact"}>
-              <li className="p-4" onClick={handleClickMenu}>
-                Contact
+            <Link to={"/experience"}>
+              <li className="p-4 border-b border-gray-600" onClick={handleClickMenu}>
+                Experience
               </li>
             </Link>
           </ul>
